@@ -1,0 +1,28 @@
+{
+  "name": "qrpaytm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PaytmChecksum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1611.0",
+    "aws-serverless-express": "^3.4.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dynamic-qr-code-generator": "^0.1.0",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nodemailer": "^6.9.13",
+    "qrcode": "^1.5.3",
+    "sharp": "^0.33.3"
+  }
+}
